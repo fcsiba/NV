@@ -1,7 +1,12 @@
-# NV
+# Neural Visualizer
+![Alt text](NeuralVisualizerLogo1.jpg?raw=true "Title")
+
 FYP Fall 2018:
 
-Neural Visualizer:
+Group Members:
+Muhammad Wasi Naseer
+Syed Zain Zaidi
+Muhammad Tayyab
 
 Sometimes, the struggle that a creative mind faces is the inability to project or materialize the vision that is inside their heads. The creative minds that we are referring to in this case specifically are people that can visualize images that are as clear as day. 
 
@@ -9,6 +14,4 @@ The problem comes when they are given tools to project those images on to a phys
 
 Neural Visualizer (NeuV.Ai) will use the ability of Deep Learning to synthesize realistic images based on semantic restrictions. Users will be able to define desired images using features or objects and semantic maps. Additionally, users will be able to specify features of the image such as the time of the day and the atmosphere.
 
-www.slideshare.net/slideshow/embed_code/key/hA9QIFGQI0hpLc
-
-https://www.youtube.com/embed/VRugujp-Cn4
+https://docs.google.com/document/d/1X360T52BKKla8B_h-JSC6QGljabAxZsmfEimz9dN-tU/edit?usp=sharing
