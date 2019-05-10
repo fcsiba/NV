@@ -1,7 +1,8 @@
 # Neural Visualizer
+
 ![Logo](images/NeuralVisualizerLogo1.jpg?raw=true "Title")
 
-FYP Fall 2018:
+FCS-IBA FYP Fall 2018
 
 # Group Members:
 Muhammad Wasi Naseer
@@ -21,4 +22,5 @@ Neural Visualizer (NeuV.Ai) will use the ability of Deep Learning to synthesize 
 # Features:
 ![Logo](images/example1.png?raw=true "Title")
 
+# Project Report
 https://docs.google.com/document/d/1X360T52BKKla8B_h-JSC6QGljabAxZsmfEimz9dN-tU/edit?usp=sharing
