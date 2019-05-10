@@ -9,7 +9,6 @@ The problem comes when they are given tools to project those images on to a phys
 
 Neural Visualizer (NeuV.Ai) will use the ability of Deep Learning to synthesize realistic images based on semantic restrictions. Users will be able to define desired images using features or objects and semantic maps. Additionally, users will be able to specify features of the image such as the time of the day and the atmosphere.
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/hA9QIFGQI0hpLc" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""> </iframe>
+www.slideshare.net/slideshow/embed_code/key/hA9QIFGQI0hpLc
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VRugujp-Cn4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+https://www.youtube.com/embed/VRugujp-Cn4
