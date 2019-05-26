@@ -20,14 +20,14 @@ To build a generative adversarial network, first one must understand how tobuild
 
 ## User interface
 ### Home Page
-![Home Page](main4.png)
-![Home Page](main5.png)
+![Home Page](main4.PNG)
+![Home Page](main5.PNG)
 
 ### Semantic Map to Facade Converter:
-![Facade Page](facade4.png)
+![Facade Page](facade4.PNG)
 
 ### Photographic map to Roadmap converter:
-![Map Page](map3.png)
+![Map Page](map3.PNG)
 
 
 ## Project Video
