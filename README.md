@@ -18,6 +18,18 @@ The user interacts with a web application that is written using react.js. Whenev
 ## Background
 To build a generative adversarial network, first one must understand how tobuild a simple convolutional network. To understand how to build aconvolutional neural network, one must understand how to build a simple deepneural network. And so this is where we began. We deeply analyzed manyliterature content on deep learning python frameworks before we could begindesigning a model of our own. After this, we began exploring the popular modelsover the GAN zoo. Once our model selection had been completed, we prepared aWeb application using React.js and flask.
 
+## User interface
+### Home Page
+![Home Page](main4.png)
+![Home Page](main5.png)
+
+### Semantic Map to Facade Converter:
+![Facade Page](facade4.png)
+
+### Photographic map to Roadmap converter:
+![Map Page](map3.png)
+
+
 ## Project Video
 Here is the link for [Project Video](https://www.youtube.com/watch?v=9b20yaFiPFM)
 
