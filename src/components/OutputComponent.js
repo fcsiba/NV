@@ -13,7 +13,7 @@ class Output extends Component {
     render() {
         return (
             <div>
-                <img alt="generated image" id="output" src={this.props.output_image}></img>
+                <img alt="generated image"  width='256' height='256' className="output" src={this.props.output_image}></img>
             </div>
             
         

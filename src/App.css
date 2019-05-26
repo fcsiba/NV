@@ -14,8 +14,11 @@
 
 }
 
-#output{
+.output{
+  width: 256;
+  height: 256;
   margin: 5px;
   border: 2px solid grey;
 
 }
+

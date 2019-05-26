@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import domtoimage from 'dom-to-image';
 import {SketchField, Tools} from 'react-sketch';
 import {Button} from 'reactstrap';
 import DeleteIcon from '@material-ui/icons/Delete';
-import CloudUploadIcon from '@material-ui/icons/CloudUpload'
 import IconButton from '@material-ui/core/IconButton';
 import '../App.css';
 
@@ -119,7 +117,7 @@ class SemanticMap extends Component{
     }
     _convertInputImage=()=>{
         //this.setState({canvasImage:this._sketch.toDataURL("png")});
-        this.props.convertInputImage(this._sketch.toDataURL("jpg")
+        this.props.convertInputFacade(this._sketch.toDataURL("jpg")
                                                 .replace("data:image/png;base64,","")  );
     }
     
@@ -129,7 +127,7 @@ class SemanticMap extends Component{
     };
 
     _upload=() =>{
-        var file    = document.querySelector('input[type=file]').files[0];
+        var file    = document.getElementById('facade_input').files[0];
         var reader  = new FileReader();
         var sk=this;
         reader.addEventListener("load", function () {
@@ -178,7 +176,7 @@ class SemanticMap extends Component{
                                 <DeleteIcon/>
                             </IconButton>
                             
-                            <input type="file" onChange={this._upload}>
+                            <input id="facade_input" type="file" onChange={this._upload}>
                             </input>
                         </div>
                         <div className="col-md-1" style={this.styles.convert_btn}>
