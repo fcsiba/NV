@@ -1,80 +1,20 @@
-<<<<<<< HEAD
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-=======
 # Neural Visualizer
-## Description
-Neural Visualizer (NeuV.Ai) will use the ability of Deep Learning to synthesize realistic images based on semantic restrictions. Users will be able to define desired images using features or objects and semantic maps. Additionally, users will be able to specify features of the image such as the time of the day and the atmosphere.
+## Introduction
+Neural Visualizer uses the ability of Generative Adversarial Networks tosynthesize realistic images based on semantic restrictions. Users are be able todefine desired images using features or objects and semantic maps. The featurescan also include environmental effects like time of day and seasonal effects.Additionally, users are able to specify features of the image in text format andthis can also be used to generate the image.The tool requires minimum amount of skill to prepare desired images in decentquality. The application itself is hosted using a Flask Web Service and isresponsive, working in real time.
 
-## Project Story
-Sometimes, the struggle that a creative mind faces is the inability to project or materialize the vision that is inside their heads. The creative minds that we are referring to in this case specifically are people that can visualize images that are as clear as day. The problem comes when they are given tools to project those images on to a physical platform. Those tools might be as novel as a canvas and a paintbrush or as modern as a photoshop software. What we set out to do is remove the barrier between the conception of the image and the actualization of the image on to the physical realm. This will be done by removing the intermediate layer of the process.
+## High Level Design
+### Rationale
+When we picked up this project, our goal was to explore the field of deep learningand develop a broad enough skill set in the field by the end of the year. In thepast few years, there has been tremendous progress in the deep learning andground breaking research has taken place. Therefore, we picked up this project tocatch up on the latest developments and understand the practical applications ofthis new technology.
+
+Initially, we found the works of Google Deep dream very captivating and didinitial research to try and understand its internal workings. Explore Deep Dreameventually lead us to GANs which have been considered the most groundbreakingdiscovery in AI in the past 5 years. It almost seemed magical how a matrixtransformation could create human readable images from pure random noise.From there onwards, we decided to understand the workings of the algorithmand implement our own. The business case did not seem prominent but theresearch prospects were very promising. We were also sure that the businessprospects would eventually be realised. So far, this has not been achieved.
+
+
+### Logical Structure
+The user interacts with a web application that is written using react.js. Wheneverthe user interacts with the elements on the website, a request is generated whichis relayed to the web server. The web server running on flask is responsible forhandling requests. It appropriately responds to requests by passing the requestedparameters through one of the pretrained models. These models have beencompiled using python’s deep learning libraries; Keras and Tensorflow. Theoutcome of the model is then replied by the web server to the web client whichdisplays it to the user.
+
+## Background
+To build a generative adversarial network, first one must understand how tobuild a simple convolutional network. To understand how to build aconvolutional neural network, one must understand how to build a simple deepneural network. And so this is where we began. We deeply analyzed manyliterature content on deep learning python frameworks before we could begindesigning a model of our own. After this, we began exploring the popular modelsover the GAN zoo. Once our model selection had been completed, we prepared aWeb application using React.js and flask.
 
 ## Project Video
-Here is the link for [Project Video](https://www.youtube.com/watch?v=VRugujp-Cn4)
->>>>>>> 8e5669e3ecf8852778757a00727764faf8d3b6a3
+Here is the link for [Project Video](https://www.youtube.com/watch?v=9b20yaFiPFM)
+
